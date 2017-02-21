@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="johnmakesappslogo2" translatesAutoresizingMaskIntoConstraints="NO" id="jGl-QJ-8ii">
+                                <rect key="frame" x="66" y="227" width="243" height="214"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jGl-QJ-8ii" secondAttribute="height" multiplier="243:214" id="68Y-vB-8Kf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jGl-QJ-8ii" secondAttribute="trailing" constant="66" id="4Kf-iE-jBs"/>
+                            <constraint firstItem="jGl-QJ-8ii" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="207" id="I4y-Jk-Un5"/>
+                            <constraint firstItem="jGl-QJ-8ii" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="66" id="Qbd-4U-GHd"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="jGl-QJ-8ii" secondAttribute="bottom" constant="226" id="jBE-BS-zr7"/>
+                            <constraint firstItem="jGl-QJ-8ii" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xXs-u1-Ard"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="374.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="johnmakesappslogo2" width="232" height="221"/>
+    </resources>
+</document>
